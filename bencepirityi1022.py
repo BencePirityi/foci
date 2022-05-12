@@ -32,3 +32,8 @@ if dontetlenmeccs:
     print("Volt döntetlen mérkőzés")
 else:
     print("Nem volt döntetlen mérkőzés")
+
+print("\n5. feladat - Hazai győzelmek:")
+for i in range(len(meccsek[0])):
+    if meccsek[1][i] > meccsek[2][i]:
+        print(meccsek[0][i])
