@@ -7,3 +7,9 @@ for i in range(len(meccsek[0])):
 atlagosgol = (sum(meccsek[1]) + sum(meccsek[2])) / (len(meccsek[1]) + len(meccsek[2]))
 print("\n2. feladat")
 print(f"A meccseken átlagosan {atlagosgol} gól született.")
+
+print("\n 3. feladat")
+if sum(meccsek[1]) > sum(meccsek[2]):
+    print("A hazai csapat győzőtt többszőr.")
+else:
+    print("A vendég csapat győzött többszőr.")
